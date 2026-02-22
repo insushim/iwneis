@@ -5,4 +5,4 @@ pages_build_output_dir = "./out"
 [[d1_databases]]
 binding = "DB"
 database_name = "neis-helper-db"
-database_id = ""
+database_id = "9e1252c6-c9d5-40cb-95c6-db3505e4eecf"
