@@ -20,12 +20,6 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Copy icon to Android resources
-        run: |
-          cp public/icons/icon-192.png android-app/app/src/main/res/mipmap-hdpi/ic_launcher.png
-          cp public/icons/icon-512.png android-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
-          cp public/icons/icon-192.png android-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png
-
       - name: Setup Gradle Wrapper
         working-directory: android-app
         run: gradle wrapper --gradle-version 8.5
